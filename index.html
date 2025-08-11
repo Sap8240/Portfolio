@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saptarshi</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- 3D Background Canvas -->
+    <div id="canvas-container" style="position:fixed;top:0;left:0;width:100vw;height:100vh;z-index:0;pointer-events:none"></div>
+
+    <!-- Main Content -->
+    <div class="content">
+        <!-- Navigation -->
+        <nav class="navbar cylindrical-navbar">
+    <div class="nav-container">
+        <div class="logo">Saptarshi Kayal</div>
+        <div class="menu-toggle" id="menu-toggle" aria-label="Open navigation">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+        <ul class="nav-links" id="nav-links">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="hero-content fade-in">
+                <h1>Saptarshi Kayal</h1>
+                <p class="subtitle">A Passionate Full Stack Developer</p>
+                <p class="description">I build responsive, performance driven websites and enjoy turning ideas into code.</p>
+                <div class="hero-image">
+                    <div class="placeholder">
+                        <img src="images/P1011274.jpg" alt="Saptarshi Kayal">
+                    </div>
+                </div>
+                <div class="btns">
+                    <a class="insta" href="https://www.instagram.com/_mj.rocks/"><img src="images/instagram (1).png" alt="Instagram"></a>
+                    <a class="Github" href="https://github.com/Sap8240"><img src="images/github.png" alt="GitHub"></a>
+                    <a class="Twitter" href="https://www.linkedin.com/in/saptarshi-kayal-70711731a/"><img src="images/linkedin.png" alt="Twitter"></a>
+                </div>
+            </div>
+        </section>
+        
+        <!-- About Section -->
+         <div class="scrolling-container">
+                    <div class="scrolling-text">
+                    <span class="text-item">CREATIVE • INNOVATIVE • PASSIONATE • DEDICATED • CREATIVE • INNOVATIVE • PASSIONATE • DEDICATED • CREATIVE • INNOVATIVE • PASSIONATE • DEDICATED</span>
+                </div>
+            </div>
+        <section id="about" class="about fade-in">
+              
+                
+                <div class="about-image fade-in">
+                    <img src="images/img2.jpg" alt="Saptarshi Kayal">
+                </div>
+                <div class="about-text fade-in">
+                    <p>Hello, I'm Saptarshi, a passionate Web Developer. I'm deeply committed to bringing design & ideas to life through, user centered design. I believe, Every project I put my hands on i built with care, creativity and a clear understanding of what the client truly needs.</p>
+                    <p>Here, my goal is always to create websites that not only look great but also work smoothly and deliver the needed results, my true satisfaction is problem  solving and making a real impact for the people I work with.</p>
+                    <p>I believe in clear communication, long term value, and building strong relationships through trust and reliability. I also enjoy sharing what I learn along the way, helping others grow through content on social-media</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Section -->
+        <section id="services" class="services fade-in">
+            <div class="services-container">
+                <h2 class="fade-in">What I Offer</h2>
+                <p class="section-subtitle fade-in">Comprehensive web development and design services tailored to your specific needs.</p>
+                <div class="services-grid">
+                    <div class="service-card fade-in">
+                        <h3>Web Design</h3>
+                        <p>Custom UI/UX design, mobile-first layouts, and aesthetic visuals that represent your brand.</p>
+                        <a href="/services/website-design" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>Landing Page Design</h3>
+                        <p>High-converting landing pages tailored for campaigns and product launches.</p>
+                        <a href="/services/website-design" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>Responsive Design</h3>
+                        <p>Mobile, tablet, and desktop-friendly designs that adapt beautifully to all screens.</p>
+                        <a href="/services/website-design" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>Web Development</h3>
+                        <p>Full-stack solutions, landing pages, API integrations, and clean, scalable code for performance.</p>
+                        <a href="/services/website-development" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>Website Maintenance</h3>
+                        <p>Ongoing support, updates, and security improvements for long-term stability.</p>
+                        <a href="/services/maintenance" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>E-commerce</h3>
+                        <p>Online store setup, product management, secure payment gateways, and cart optimization.</p>
+                        <a href="/services/cms-solutions" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>SEO Optimization</h3>
+                        <p>Core Web Vitals improvement, on-page SEO, meta tags, and speed optimization for better ranking.</p>
+                        <a href="/services/speed-seo" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>Speed Optimization</h3>
+                        <p>Improve load times and performance with caching, compression, and code cleanup.</p>
+                        <a href="/services/speed-seo" class="learn-more">Learn More →</a>
+                    </div>
+                    <div class="service-card fade-in">
+                        <h3>Content Management</h3>
+                        <p>WordPress, Shopify, and custom CMS setup with easy dashboards and secure admin panels.</p>
+                        <a href="/services/cms-solutions" class="learn-more">Learn More →</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Projects Section -->
+        <section id="projects" class="projects">
+            <div class="projects-container">
+                <h2 class="fade-in">Featured Projects</h2>
+                <p class="section-subtitle fade-in">A selection of my most impactful work across various industries and technologies.</p>
+                <div class="projects-grid">
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="images/Medora.jpg" alt="Project 1">
+                        </div>
+                        <div class="project-content">
+                            <h3>Medora</h3>
+                            <p>Coded the frontend of a medical report storage app with AI summarizer and Medicine alert system.</p>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="images/C3 LOGO.png" alt="Project 2">
+                        </div>
+                        <div class="project-content">
+                            <h3>C3 Webpage</h3>
+                            <p>A clean and responsive single page website for promoting blockchain club events and updates.</p>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="images/Vote.png" alt="Project 3">
+                        </div>
+                        <div class="project-content">
+                            <h3>Online Voting System</h3>
+                            <p>A webpage for voting during elections with user authentication and secure voting mechanism. Contains infos about the election party a user is voting.</p>
+                        </div>
+                    </div>
+                    <div class="project-card fade-in">
+                        <div class="project-image">
+                            <img src="images/kuru kuru.gif" alt="Project 4">
+                        </div>
+                        <div class="project-content">
+                            <h3>Kuru-Kuru</h3>
+                            <p>A fun and enjoyable tap counter webpage with a simple and clean design.</p>
+                        </div>
+                    </div>
+                    
+                    
+                </div>
+            </div>
+        </section>
+
+       
+
+        <!-- Testimonials Section -->
+        <section class="testimonials">
+            <div class="testimonials-container">
+                <h2 class="fade-in">What Clients Say</h2>
+                <p class="section-subtitle fade-in">Don't just take my word for it. Hear what my clients have to say about working with me.</p>
+                <div class="testimonials-grid">
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                Avatar
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Katherine Johnson</h4>
+                                <p>Event Coordinator</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>Ashar delivered an exceptional scheduling tool for our festival. The interface was smooth, filters worked flawlessly, and the printable view was a game changer for attendees. His attention to detail and user focused design really stood out.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                Avatar
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Benjamin Smith</h4>
+                                <p>CEO</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>Ashar provided good quality work. He was very fast and knowledgable. He responded very quickly and was always available. The language barrier was a challenge a few times, but we were able to work around that. I would definitely hire him again.</p>
+                        </div>
+                    </div>
+                    <div class="testimonial-card fade-in">
+                        <div class="testimonial-header">
+                            <div class="testimonial-avatar">
+                                Avatar
+                            </div>
+                            <div class="testimonial-info">
+                                <h4>Elena Morgan</h4>
+                                <p>Owner</p>
+                            </div>
+                        </div>
+                        <div class="testimonial-content">
+                            <p>Ashar transformed our outdated website into a stunning, modern platform that truly reflects our brand. The clean design, fast loading, and elegant layout exceeded our expectations. Highly professional work!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+<section id="contact" class="contact">
+    <div class="contact-container">
+        <h2 class="fade-in">Get In Touch</h2>
+        <p class="section-subtitle fade-in">I'm currently accepting new projects and freelance opportunities. Let's discuss your project!</p>
+        <form action="https://formspree.io/f/mdkdyvwa" method="POST" id="contactForm" class="contact-form fade-in">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" required>
+            </div>
+            
+            <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="4" required></textarea>
+            </div>
+            <button type="submit" class="submit-btn">
+                <span class="btn-text">Send Message</span>
+                <span class="loading" style="display: none;">Sending...</span>
+            </button>
+        </form>
+        <div id="responseMessage" class="response-message"></div>
+    </div>
+</section>
+
+
+        <!-- Footer Section -->
+        <footer class="footer">
+            <div class="footer-container">
+                <div class="footer-logo">
+                    Saptarshi
+                </div>
+                <div class="footer-links">
+                    <a href="#home">Home</a>
+                    <a href="#about">About</a>
+                    <a href="#services">Services</a>
+                    <a href="#projects">Projects</a>
+                    <a href="#contact">Contact</a>
+                </div>
+                <div class="footer-socials">
+                    <a href="#" target="_blank">Facebook</a>
+                    <a href="#" target="_blank">Twitter</a>
+                    <a href="#" target="_blank">LinkedIn</a>
+                    <a href="#" target="_blank">Instagram</a>
+                </div>
+                <div class="footer-copyright">
+                    &copy; 2025 Saptarshi. All rights reserved.
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+    <script src="js/script.js">
+</script>
+</body>
+</html>
