@@ -1,0 +1,24 @@
+body{
+    background-color: black;
+}
+
+#header{
+    background-color: rgba(245, 245, 220, 0.619);
+    color: beige;
+    padding: 5px;
+    width: 100%;
+    font-size: 30px;
+    text-align: center;
+}
+dl{
+    margin-left: 5%;
+    margin-top: 5%;
+    width: 80%;
+    color: beige;
+    list-style-type:none;
+
+}
+a{
+    color:beige;
+    font-size: larger;
+}

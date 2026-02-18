@@ -1,0 +1,21 @@
+body{
+    background-color: black;
+}
+h1{
+    color: bisque;
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+p{
+    color: bisque;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 15px;
+}
+a{  
+    width: 40%;
+    bottom: 10%;
+    right: 30%;
+    position: absolute;
+    text-align: center;
+}

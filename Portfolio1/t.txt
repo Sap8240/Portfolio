@@ -1,0 +1,21 @@
+<div class="form">
+        <div class="kuru">
+        <h><a href="https://github.com/Sap8240/KURU-KURU.git">1. Kuru Kuru </a></h>
+        <P>It is a basic click counter program where the click is counted upon playing the video.</P>
+        </div>
+        <div class="chatapp">
+            <h><a href="https://github.com/Sap8240/CHATAPP.git">2. ChatApp</a></h>
+            <p>It is a basic ChatApp where you can type messages and receive texts.</p>
+        </div>
+        <div class="piano">
+            <h><a href="https://github.com/Sap8240/Piano.git">3. Piano</a></h>
+            <p>It is a model of virtual piano where pressing each keys plays piano sounds.</p>
+        </div>
+        <div class="weather">
+            <h><a href="https://github.com/Sap8240/Weather.git">4. Weather App</a></h>
+            <p>It is a online weather app which shows the live weather report of a city,</p>
+        </div>
+        <div class="calculator">
+            <h><a href="https://github.com/Sap8240/Calculator.git">5. Calculator</a></h>
+            <p>It is a virtual calculator which can perform basic arithmetic functions including addition, substraction, division etc. </p>
+        </div>
