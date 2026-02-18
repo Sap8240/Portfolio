@@ -22,6 +22,10 @@ const Hero = () => {
                     <a className="Twitter" href="https://www.linkedin.com/in/saptarshi-kayal-70711731a/" target="_blank" rel="noopener noreferrer">
                         <img src="/images/linkedin.png" alt="Twitter" />
                     </a>
+                    <a className="Twitter" href="https://api.whatsapp.com/send/?phone=918240432534&text=Hello%2C+I+came+across+your+profile+and+would+like+to+connect+regarding+website+development+services.+Please+let+me+know+a+suitable+time+to+discuss+further.+Thank+you.&type=phone_number&app_absent=0" target="_blank" rel="noopener noreferrer">
+                        <img src="/images/whatsapp.png" alt="Twitter" />
+                    </a>
+
                 </div>
             </div>
         </section>
