@@ -1,9 +1,14 @@
+require('dotenv').config();
 const express = require('express');
 const cors = require('cors');
-require('dotenv').config();
+const connectDB = require('./config/db');
+const Contact = require('./models/Contact');
 
 const app = express();
 const PORT = process.env.PORT || 5000;
+
+// Connect Database
+connectDB();
 
 // Middleware
 app.use(cors());
@@ -15,7 +20,7 @@ app.get('/api', (req, res) => {
 });
 
 // Contact Endpoint
-app.post('/api/contact', (req, res) => {
+app.post('/api/contact', async (req, res) => {
     const { name, email, message } = req.body;
 
     // Basic validation
@@ -23,14 +28,20 @@ app.post('/api/contact', (req, res) => {
         return res.status(400).json({ error: 'Please provide all required fields' });
     }
 
-    // Log the message (In a real app, save to DB or send email)
-    console.log('New Contact Form Submission:');
-    console.log(`Name: ${name}`);
-    console.log(`Email: ${email}`);
-    console.log(`Message: ${message}`);
+    try {
+        const newContact = new Contact({
+            name,
+            email,
+            message
+        });
 
-    // Simulate success
-    res.status(200).json({ success: true, message: 'Message received successfully!' });
+        const contact = await newContact.save();
+
+        res.status(200).json({ success: true, message: 'Message received successfully!', data: contact });
+    } catch (err) {
+        console.error(err.message);
+        res.status(500).send('Server Error');
+    }
 });
 
 // Start Server
